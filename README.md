@@ -1,2 +1,3 @@
-# after-action-renderer
-After Action Renderer transforms text-based wargame scenarios into dynamic battle data and AI-generated video replays. Using natural language input, it creates cinematic battle reports, tactical breakdowns, and immersive war narratives—bringing your strategic vision to life with ease.
+# After Action Renderer
+
+***After Action Renderer*** is an AI-powered application that transforms text-based wargame scenarios into fully generated battle data, including unit stats, terrain layouts, and mission conditions. It then brings these battles to life through dynamically edited digital video recordings, tailored to natural language descriptions. Whether you need cinematic battle replays, tactical breakdowns, or stylized war reports, After Action Renderer intelligently crafts immersive video content—turning your strategic vision into visually compelling narratives with ease.
