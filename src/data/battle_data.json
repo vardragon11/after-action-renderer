@@ -1,0 +1,8 @@
+{
+    "units": [{"name": "Alpha Squad", "type": "infantry", "strength": 80}],
+    "terrain": "urban",
+    "objectives": ["Secure building A", "Eliminate hostiles"],
+    "timeline": [
+      {"time": "00:01", "event": "Alpha Squad moves to position"}
+    ]
+  }
