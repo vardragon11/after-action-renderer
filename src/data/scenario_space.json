@@ -1,0 +1,113 @@
+{
+  "title": "Operation Coastal Shield.",
+  "description": "Allied Forces are retreating under fire.",
+  "terrain": {
+    "type": "unknown",
+    "features": [
+      {
+        "type": "Beach",
+        "position": [
+          5.0,
+          9.3
+        ],
+        "size": 50.0
+      }
+    ],
+    "dimensions": [
+      10,
+      10
+    ]
+  },
+  "units": [
+    {
+      "id": "U1",
+      "name": "British Infantry",
+      "type": "Infantry",
+      "strength": 85,
+      "position": [
+        3.0,
+        6.0
+      ],
+      "allegiance": "Friendly",
+      "status": "Active"
+    },
+    {
+      "id": "U2",
+      "name": "French Infantry",
+      "type": "Infantry",
+      "strength": 80,
+      "position": [
+        5.0,
+        6.0
+      ],
+      "allegiance": "Friendly",
+      "status": "Active"
+    },
+    {
+      "id": "U3",
+      "name": "German Armor",
+      "type": "Armor",
+      "strength": 92,
+      "position": [
+        3.0,
+        4.0
+      ],
+      "allegiance": "Enemy",
+      "status": "Active"
+    },
+    {
+      "id": "U4",
+      "name": "German Armor",
+      "type": "Armor",
+      "strength": 87,
+      "position": [
+        6.0,
+        4.0
+      ],
+      "allegiance": "Enemy",
+      "status": "Active"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "evacuate to Boats",
+      "controlling_unit_ids": [],
+      "completed": false,
+      "location": [
+        5.0,
+        10.0
+      ],
+      "priority": 1
+    }
+  ],
+  "timeline": [
+    {
+      "timestamp": "0.00",
+      "description": "British Infantry fallback",
+      "involved_units": [
+        "U1"
+      ],
+      "location": null,
+      "event_type": "move"
+    },
+    {
+      "timestamp": "0.01",
+      "description": "German Armor fires",
+      "involved_units": [
+        "U3"
+      ],
+      "location": null,
+      "event_type": "fire"
+    },
+    {
+      "timestamp": "0.01",
+      "description": "French Infantry Fires",
+      "involved_units": [
+        "U2"
+      ],
+      "location": null,
+      "event_type": "fire"
+    }
+  ]
+}

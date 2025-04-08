@@ -1,0 +1,196 @@
+{
+  "title": "LUNAR ASCENT.",
+  "description": "A covert laser strike has crippled UED\u2019s high-bandwidth relay satellite over the Moon. Tensions escalate to open orbital warfare. The Moon becomes the fulcrum.",
+  "terrain": {
+    "type": "unknown",
+    "features": [],
+    "dimensions": [
+      10,
+      10
+    ]
+  },
+  "units": [
+    {
+      "id": "U1",
+      "name": "UED Defense Satellite 1",
+      "type": "Satellite",
+      "strength": 70,
+      "position": [
+        4.0,
+        2.0
+      ],
+      "allegiance": "Friendly",
+      "status": "Active"
+    },
+    {
+      "id": "U2",
+      "name": "UED Defense Satellite 2",
+      "type": "Satellite",
+      "strength": 70,
+      "position": [
+        3.0,
+        2.5
+      ],
+      "allegiance": "Home",
+      "status": "Active"
+    },
+    {
+      "id": "U3",
+      "name": "UED Supply Shuttle",
+      "type": "Shuttle",
+      "strength": 100,
+      "position": [
+        2.0,
+        -1.0
+      ],
+      "allegiance": "Home",
+      "status": "Active"
+    },
+    {
+      "id": "U4",
+      "name": "UED Artemis Laser",
+      "type": "Ground-Laser",
+      "strength": 90,
+      "position": [
+        0.0,
+        -2.0
+      ],
+      "allegiance": "Friendly",
+      "status": "Active"
+    },
+    {
+      "id": "U5",
+      "name": "CC Stealth Satellite 1",
+      "type": "StealthSatellite",
+      "strength": 60,
+      "position": [
+        3.0,
+        2.5
+      ],
+      "allegiance": "Enemy",
+      "status": "Active"
+    },
+    {
+      "id": "U6",
+      "name": "CC Stealth Satellite 2",
+      "type": "StealthSatellite",
+      "strength": 60,
+      "position": [
+        4.0,
+        2.0
+      ],
+      "allegiance": "Enemy",
+      "status": "Active"
+    },
+    {
+      "id": "U7",
+      "name": "CC Lunar Jammer",
+      "type": "Jammer",
+      "strength": 50,
+      "position": [
+        1.0,
+        -2.0
+      ],
+      "allegiance": "Enemy",
+      "status": "Active"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "O1",
+      "description": "Retake orbital sectors",
+      "controlling_unit_ids": [],
+      "completed": false,
+      "location": [
+        0.0,
+        2.0
+      ],
+      "priority": 1
+    },
+    {
+      "id": "O2",
+      "description": "Protect Artemis Base",
+      "controlling_unit_ids": [],
+      "completed": false,
+      "location": [
+        0.0,
+        5.0
+      ],
+      "priority": 2
+    }
+  ],
+  "timeline": [
+    {
+      "timestamp": "1.00",
+      "description": "Deploy UED Defense Satellites",
+      "involved_units": [
+        "U1"
+      ],
+      "location": null,
+      "event_type": "move"
+    },
+    {
+      "timestamp": "1.00",
+      "description": "Deploy UED Defense Satellites",
+      "involved_units": [
+        "U1"
+      ],
+      "location": null,
+      "event_type": "move"
+    },
+    {
+      "timestamp": "2.00",
+      "description": "CC launches jammer activation",
+      "involved_units": [
+        "U7"
+      ],
+      "location": null,
+      "event_type": "hold"
+    },
+    {
+      "timestamp": "3.00",
+      "description": "Direct fire between satellites begins",
+      "involved_units": [
+        "U1|U5"
+      ],
+      "location": null,
+      "event_type": "fire"
+    },
+    {
+      "timestamp": "4.00",
+      "description": "UED Artemis Laser engages drones",
+      "involved_units": [
+        "U4|U8"
+      ],
+      "location": null,
+      "event_type": "fire"
+    },
+    {
+      "timestamp": "5.00",
+      "description": "CC Stealth Satellite attempts repositioning",
+      "involved_units": [
+        "U6"
+      ],
+      "location": null,
+      "event_type": "move"
+    },
+    {
+      "timestamp": "6.00",
+      "description": "UED Supply Shuttle prepares for descent",
+      "involved_units": [
+        "U3"
+      ],
+      "location": null,
+      "event_type": "hold"
+    },
+    {
+      "timestamp": "7.00",
+      "description": "UED reclaims orbital sector",
+      "involved_units": [
+        "U2"
+      ],
+      "location": null,
+      "event_type": "move"
+    }
+  ]
+}

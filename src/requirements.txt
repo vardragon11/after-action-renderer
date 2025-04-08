@@ -1,0 +1,8 @@
+
+## Voice to Text and Text to voice packages
+gtts==2.5.4
+pydub==0.25.1
+whisper==1.1.10
+pydantic>=2.9.
+re
+json
